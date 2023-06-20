@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Mi primer html </title>
+        <style>
+            h2 {color: aquamarine;}
+            p {color: darkred;font-family: sans-serif;border: 3px; margin: 5px;padding: 4px;}
+            table, th, td {
+                border: 3px solid cornsilk;
+                border-collapse: collapse;
+                align-items: center;
+            }
+            th, td {
+                background-color: cyan;
+                border-radius: 20px;
+                border-style: dashed;
+                padding: 5px;
+            }
+            tr:hover {background-color: brown;}
+
+            .MiClase{
+                border: 15px;
+                color: blue;
+                padding: 20px;
+                background-color: chartreuse;
+            }
+        </style>
+        <link rel="icon" href="1291416.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color:cornsilk;">
+        <h1 style="color: rgb(86, 86, 148); text-align: center;">  Hola mundo jejej 1</h1>
+        <h2 style="font-family: 'Times New Roman', Times, serif;"> Segundo header mas importante 2</h2>
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;"> Tercer header mas importante 3</h3>
+        <h4 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> cuarto header mas importante 4</h4>
+        <h5 style="font-family: monospace;"> quinto header mas importante 5</h5>
+        <h6 style="font-family: Arial, Helvetica, sans-serif;"> sexto header mas importante 6 </h6>
+
+
+        <hr>
+        <h2 style="color: brown ; font-family: sans-serif;"> <b>Parrafos aqui:</b></h2>
+        <p style="font-size: 150%;"> Esta es mi primera vez usando html veamos que tal </p>
+        <p title="Este es un parrafo y tiene un titulo"> Este parrafo contiene algo, poner  mouse encima</p>
+        <pre>
+            Este es un parrafo pre formateado
+            Como puedes ver puedo cambiar de linea
+            Cuando yo quiera 
+        </pre>
+
+
+        <hr>
+        <h2 style="color: brown ; font-family: sans-serif;"> <b>Links:</b></h2>
+        <a href="https://github.com/ALEYI17" target="_blank"> <img src="GitHub-Mark.png " alt="Imagen de github"  width="50",height= " 50" title="ir a mi github"> </a>
+        <br>
+        <a style="background-color: cadetblue;color: black;padding: 16px 15px;text-align: center; display: inline-block;" href="https://github.com/ALEYI17" target="_blank"> Boton para link</a>
+        <br>
+        <a href="#Colors"> Saltar hasta Colores </a>
+        <br>
+        <a href="#FO"> Saltar hasta formating elements </a>
+        <br>
+        <a href="#Quo"> Saltar hasta  Quotations</a>
+        <br>
+        <a href="#Tables"> Saltar hasta  Tables</a>
+        <br>
+        <a href="#Listas"> Saltar hasta  Listas</a>
+        <br>
+        <a href="#Blocks"> Saltar hasta  inline y blocks</a>
+        <br>
+        <a href="#class"> Saltar hasta  Clases</a>
+        <br>
+        <a href="#frame"> Saltar hasta  Frame</a>
+        <br>
+        <a href="#script"> Saltar hasta  Script</a>
+        <br>
+        <a href="#semantic"> Saltar hasta  Semantic elements</a>
+        <br>
+        <a href="#Form"> Saltar hasta  Form</a>
+        <br>
+        <a href="#Graphic"> Saltar hasta Graficas</a>
+        <br>
+        <a href="#Media"> Saltar hasta Media</a>
+        
+        
+
+        <hr>
+        <h2 style="color: brown ; font-family: sans-serif;" > <b>Imagenes:</b></h2>
+        <img src="1291416.jpg" , alt="Serpiente" width="200",height= " 300">
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="FO"> <b>Formating Elements</b></h2>
+        <b> Esto es un texto en bold <br> </b>
+        <strong> Esto es un texto en strong <br></strong>
+        <i> Esto es un texto en italica<br></i>
+        <em> Esto es un texto emphasized<br></em>
+        <small> Esto es un texto en small <br></small>
+        <p> Esto es un texto con una <mark> mark </mark> <br></p>
+        <p> Este texto tiene un <del> texto borrado</del> esta chevere </p>
+        <p> Este texto tiene un <ins> texto subrayado</ins> muy importante</p>
+        <p> Aqui tenemos unn texto superior por ejemplo 2<sup>3</sup> = 8</p>
+        <p> Aqui tenemos un texto inferior por ejempo x<sub>i </sub></p>
+
+
+        <h2 style="color: brown;font-family: sans-serif;" id="Quo"> <b>Quotations</b></h2>
+        <p>Aqui voy a poner una cita de una cancion , es una cita de bloque</p>
+        <blockquote>
+            Daisy, you, you could make me feel
+            How beautiful
+            Sometimes make me fool
+            Oh baby girl, in our comfy room
+            I'm in the mood for kissing more
+            All I need is falling for you now
+            Daisy, it's true
+        </blockquote>
+        <p> Aqui una cita corta <q> Hola muy buenas , soy una cita corte</q></p>
+        <p> El <abbr title="Hola que tal mira un abbr"> Quien?</abbr> abbr logra hacer esto </p>
+        <address>
+            Nombre: Alejandro Salamanca <br>
+            Github: ALEYI17<br>
+            Esto es un addres para mostrar informacion.
+        </address>
+        <p> Una cita con "cite" <cite>Aqui se pone el nombre de una obra.</cite> y aqui otra informacion</p>
+        <bdo dir="rtl"> Este texto re escribe la direccion del texto </bdo> 
+        <!--Este es un comentario en HTML 5 jejejeje --> 
+
+        
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Colors"> <b>Colores: </b></h2>
+        <p style="background-color: blueviolet;"> Este es un color de background</p>
+        <p style="color: turquoise;"> Este es un texto con color</p>
+        <p style="border: 6px solid tomato; text-align: center;"> Este es un borde con color</p>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Tables"> <b>Tables: </b></h2>
+
+        <b style="padding: 10%; border: 100px;"> Mi primera tabla:</b>
+        <table style="width: 50%;">
+            <tr>
+                <th> Header1 de la tabla </th>
+                <th> Header2 de la tabla </th>
+                <th> Header3 de la tabla </th>
+            </tr>
+            <tr>
+                <td> First data in first row </td>
+                <td> Second data in first row </td>
+                <td> Third data in first row </td>
+            </tr>
+            <tr>
+                <td> First data in second row </td>
+                <td> Second data in second row </td>
+                <td> Third data in second row </td>
+            </tr>
+
+        </table>
+        <br>
+
+        <b style="padding: 10%; border: 100px;"> Mi segunda tabla <em> tiene headers verticales</em>:</b><br>
+        <table style="width: 50%;">
+            <caption> Aqui se puede ver un caption</caption>
+            <tr>
+                <th> Primer header</th>
+                <td> Contednido 1 del header 1</td>
+                <td> Contenido 2 del header 2</td>
+            </tr>
+            <tr>
+                <th> Segundo header</th>
+                <td> Contenido 1 del segundo header</td>
+                <td> Contenido 2 del segundo header</td>
+            </tr>
+        </table>
+        <br>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Listas"> <b>Listas: </b></h2>
+        <p> Esta es una lista desordenada <br></p>
+        <ul style="list-style-type:circle;">
+            <li> Primer elemento de la lista</li>
+            <li> Otro elemento de la lista</li>
+            <li> Otro elemento de la lista</li>
+        </ul>
+        <p> Esta es una lista ordenada <br></p>
+        <ol type="I">
+            <li> Chocolate</li>
+            <li> Cafe</li>
+            <li> Te</li>
+        </ol>
+        <p> Esta es una lista con descripcion <br></p>
+        <dl>
+            <dt> Cafe</dt>
+            <dd> -bebida caliente negra</dd>
+            <dt> Chocolate</dt>
+            <dd> -bibida caliente dulce y cafe</dd>
+        </dl>
+        <p> Esta es una lista que tiene una lista dentro <br></p>
+        <ul>
+            <li> Aqui hay un elemento de la lista</li>
+            <li\> Aqui otro elemento </li>
+            <ul>
+                <li> Aqui un elemeto de la lista dentro de la lis</li>
+                <li> Aqui otro elemeto de la lista dentro de la lis</li>
+            </ul>
+            <li> Elemento despues de la lista de dento</li>
+        </ul>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Blocks"> <b>Block and inline elements: </b></h2>
+        <p> Usando div </p>
+        <div style="background-color: cadetblue;padding: 20px;">
+            <h2> Un header dentro del div</h2>
+            <p> Parrafo dentro del div</p>
+        </div>
+        <p> Usando span</p>
+        <p> Aqui voy a usar un <span style="color: blueviolet;"> span</span> como se ve es un <span style="color: chocolate;">inline</span> element</p>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="class"> <b>Clases: </b></h2>
+        <div class="MiClase">
+            <h3> Este es un header dentro de un div con clase</h3>
+            <P> Este es un parrafo dentro de un div con clase</P>
+        </div>
+        <div class="MiClase">
+            <h2 style="color: blueviolet;"> Aqui va una lista</h2>
+            <ul>
+                <li> Un elemento dentro de una lista en div con clase</li>
+                <li> Otro elemento jeje </li>
+            </ul>
+        </div>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="frame"> <b>Frame: </b></h2>
+        <iframe src="EjemploIframe.html" title="EjemploFrame" style="height: 300; width: 200; border: solid rebeccapurple;"></iframe>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="script"> <b>Script: </b></h2>
+        <h1> Mi primer java script</h1>
+        <button type="button" onclick="FuncionCambio()"> Oprime para ver el cambio </button>
+        <p id="Cambio"> Voy a cambiar este parrafo</p>
+        <script> 
+        function FuncionCambio(){
+            document.getElementById("Cambio").innerHTML = "Ves cambio";
+        }
+        </script>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="semantic"> <b>Semantic elements: </b></h2>
+        <header>
+            <h1> Dentro de un header</h1>
+            <p> Los header son para introduccion</p>
+            <p> O tambien para links de navegacion</p>
+        </header>
+
+        <section> 
+            <h1> Este es un header en la primera seccion</h1>
+            <p> y un parrafo en la seccion</p>
+            <q> According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."</q>
+        </section>
+        <section>
+            <h1> Aqui va la segunda seccion</h1>
+            <p> un parrafo en la segunda</p>
+        </section>
+
+        <article>
+            <h1> Ahora dentro de un article</h1>
+            <p> Los articulos son para separar cosas independientes y explicadas por si mismas</p>
+        </article>
+
+        <nav>
+            <h1>  Nav define una serie de links de navegacion </h1>
+            <a href="#Colors"> Saltar hasta Colores </a>|
+            <a href="#FO"> Saltar hasta formating elements </a>|
+        </nav>
+
+        <aside>
+            <h3> Contiene informacion al lado de la que se esta mostrando </h3>
+            <p> Contien informacion relacionada con lo que se esta hablando</p>
+        </aside>
+
+        <figure>
+            <h1> Dentro de una figure se ponen imagenes </h1>
+            <img src="1291416.jpg" , alt="Serpiente" width="200",height= " 300">
+            <figcaption> Es la descripcion de la imagen </figcaption>
+        </figure>
+
+        <footer>
+            <p> En los footer debe estar el nombre del autor</p>
+            <p> O informacion relacionada con la pagina web</p>
+        </footer>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Form"> <b>Form: </b></h2>
+        <h1> Voy a hacer una form</h1>
+        <form autocomplete="on">
+            <label for="fname"> Un label para el input de texto </label>
+            <input type="text" id="Fname" name="Fname"><br>
+            <h3> Radio buttons</h3>
+            <input type="radio" value="primer" id="FirstRD" , name="elprimero">
+            <label for="FirstRD"> El primer radio button</label>
+            <input type="radio" value="segundo" id="SecondRD" , name="elprimero">
+            <label for="SecondRD"> El segundo radio button</label>
+            <h3> CheckBox</h3>
+            <input type="checkbox" , id="FirstCB ", name="CB" value="Check1">
+            <label for="FirstCB"> Oprime la primera</label>
+            <input type="checkbox" , id="SecondCB ", name="CB" value="Check2">
+            <label for="SecondCB"> Oprime la segunda</label>
+            <h3> Submit botton</h3>
+            <input type="submit" value="submit">
+            <h3> Select</h3>
+            <label for="colores"> Select a color</label>
+            <select id="colores" name="Colors" size="2">
+                <option value="Negro"> Negro</option>
+                <option value="Rojo"> Rojo</option>
+                <option value="Azul"> Azul</option>
+            </select>
+            <h3> Text area</h3>
+            <textarea name="Mensaje" rows="10" cols="30">Aqui puedes escribir lo que quieras</textarea>
+            <h3> Botones</h3>
+            <button type="button" onclick="alert('Hello World!')">Oprime</button>
+            <h3> fieldset y legend</h3>
+            <fieldset>
+                <legend> Texto qie necesite</legend>
+                <p> Puedo poner lo que necesite aqui</p>
+            </fieldset>
+            <h3> Datalist</h3>
+            <input list="Coloreess" name="coloooreess">
+            <datalist id="Coloreess">
+                <option value="Negro">
+                <option value="Rojo">
+                <option value="Azul">
+            </datalist>
+            <input list="browsers" name="browser">
+            <h3>input de color</h3>
+            <label for="favcolor">Selecciona tu color</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <h3> input de fecha</h3>
+            <label for="fecha">Selecciona una fecha:</label>
+            <input type="date" id="fecha" name="unaFecha">
+            <h3> input de Email</h3>
+            <label for="email"> Pon tu email:</label>
+            <input type="email" name="mail" id="emaill">
+            <h3> input Files</h3>
+            <label for="myfile">Selecciona un archivo:</label>
+            <input type="file" id="myfile" name="myfile">
+            <h3> input telephone</h3>
+            <label for="Tele"> Introduce tu numero</label>
+            <input type="tel" , id="Tele" , name="Tele" placeholder="123-45-678">
+            <h3> input Time</h3>
+            <label for="appt">Selecciona un tiempo:</label>
+            <input type="time" id="appt" name="appt">
+            <h3> input url</h3>
+            <label for="url"> Ingresa una url</label>
+            <input type="url" id="url" name="url">
+        </form>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Graphic"> <b>Graficas: </b></h2>
+        <h3>Svg</h3>
+        <svg>
+            <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="red" />
+        </svg>
+        <svg>
+            <rect width="400" height="100" style="fill:rgb(27, 27, 146);stroke-width:10;stroke:rgb(102, 16, 16)" />
+        </svg>
+
+        <hr>
+        <h2 style="color: brown;font-family: sans-serif;" id="Media"> <b>Media: </b></h2>
+        <iframe width="420" height="315"
+        src="https://youtu.be/pyAYBKTvIzQ">
+        </iframe>
+    </body>
+</html>
